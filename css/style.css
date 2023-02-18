@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Lato:ital,wght@0,400;0,700;1,400&family=Rajdhani&display=swap');
+
+body {
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#Welcome {
+    background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/point-of-sale-system.jpg);
+}
