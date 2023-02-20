@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,300&family=Lato:ital,wght@0,400;0,700;1,400&family=Rajdhani&display=swap');
 
 body {
-    line-height: 1.8;
-    color: #898fa1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #aeb3c2;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
+    background: linear-gradient(rgba(17, 36, 90, 0.2), rgba(17, 36, 90, 0.2)), url(../img/point-of-sale-system.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 60px;
 }
 
 .form-control {
@@ -13,39 +20,15 @@ body {
 
 .navbar {
     background-color: rgba(11, 36, 44, 0.7);
-}
-
-#Welcome {
-    background: linear-gradient(rgba(17, 36, 90, 0.2), rgba(17, 36, 90, 0.2)), url(../img/point-of-sale-system.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    top: o;
 }
 
 .card {
     background-color: rgba(11, 36, 44, 0.9);
 }
 
-.footer-top {
-    bottom: 0;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 25px;
+.Sticky-footer {
+    margin-top: auto;
     background-color: rgba(11, 36, 44, 0.6);
-}
-
-.footer-top .social-icons {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-}
-
-footer .footer-links a,
-.footer-top .social-icons a {
-    color: #815e5e;
-}
-
-footer .social-icons a:hover,
-.footer-top .footer-links a:hover {
-    color: #E93B81;
+    padding: 2em;
 }
