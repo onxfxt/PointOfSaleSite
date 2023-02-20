@@ -9,4 +9,27 @@ body {
 
 #Welcome {
     background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/point-of-sale-system.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer-top {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.footer-top .social-icons {
+    width: 30px;
+    height: 30px;
+}
+
+footer .footer-links a,
+.footer-top .social-icons a {
+    color: #ffffff;
+}
+
+footer .social-icons a:hover,
+.footer-top .footer-links a:hover {
+    color: #E93B81;
 }
