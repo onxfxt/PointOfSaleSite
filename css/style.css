@@ -15,11 +15,6 @@ body {
     background-color: rgba(11, 36, 44, 0.7);
 }
 
-#Login-form {
-    
-}
-
-
 #Welcome {
     background: linear-gradient(rgba(17, 36, 90, 0.2), rgba(17, 36, 90, 0.2)), url(../img/point-of-sale-system.jpg);
     background-size: cover;
@@ -32,7 +27,6 @@ body {
 }
 
 .footer-top {
-    display: inline-block;
     bottom: 0;
     width: 100%;
     padding-top: 10px;
@@ -41,14 +35,14 @@ body {
 }
 
 .footer-top .social-icons {
-    
+    display: inline-block;
     width: 30px;
     height: 30px;
 }
 
 footer .footer-links a,
 .footer-top .social-icons a {
-    color: #ffffff;
+    color: #815e5e;
 }
 
 footer .social-icons a:hover,
