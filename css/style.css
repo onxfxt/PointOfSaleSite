@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #aeb3c2;
+    color: #d9dce6;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(rgba(17, 36, 90, 0.2), rgba(17, 36, 90, 0.2)), url(../img/point-of-sale-system.jpg);
@@ -27,7 +27,7 @@ body {
     background-color: rgba(11, 36, 44, 0.9);
 }
 
-.Sticky-footer {
+.footer {
     margin-top: auto;
     background-color: rgba(11, 36, 44, 0.6);
     padding: 2em;
