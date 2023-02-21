@@ -20,7 +20,7 @@ body {
 
 .navbar {
     background-color: rgba(11, 36, 44, 0.7);
-    top: o;
+    top: 0;
 }
 
 .card {
@@ -30,5 +30,4 @@ body {
 .footer {
     margin-top: auto;
     background-color: rgba(11, 36, 44, 0.6);
-    padding: 2em;
 }
